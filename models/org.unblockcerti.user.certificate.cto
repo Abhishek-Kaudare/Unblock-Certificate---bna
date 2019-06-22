@@ -1,0 +1,15 @@
+namespace org.unblockcerti.user.certificate
+
+asset Certificate identified by certiId {
+  o String certiId
+  o String applicationId
+  o String field1
+  o String field2
+}
+
+transaction addCerti {
+  o String certiId
+  o String applicationId
+  o String field1
+  o String field2
+}
