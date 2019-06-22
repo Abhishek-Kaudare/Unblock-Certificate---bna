@@ -1,0 +1,34 @@
+namespace org.unblockcerti.user.application
+
+
+asset Application identified by applicationId {
+  o String applicationId
+  o String fullName
+  o Integer age
+  o String address
+  o String document1path
+  o String document2path
+  o Integer status
+}
+
+
+transaction submitApplication{
+  o String applicationId
+  o String fullName
+  o Integer age
+  o String address
+  o String document1path
+  o String document2path
+  o Integer status
+}
+
+transaction verifyApplication{
+  o String applicationId
+  o String fullName
+  o Integer age
+  o String address
+  o String document1path
+  o String document2path
+  o Integer status
+}
+
